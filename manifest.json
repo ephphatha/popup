@@ -1,0 +1,29 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Open as Popup",
+  "version": "1.0",
+
+  // Recommended
+  "description": "Open the current tab in a popup window",
+  "icons": {
+    "128": "icon.png"
+  },
+
+  // Pick one (or none)
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  // Optional
+  "author": "ephphatha",
+  "background": {
+    "scripts": ["event.js"],
+    // Recommended
+    "persistent": false
+  },
+  "homepage_url": "https://thelettereph.com",
+  //"incognito": "split",
+  "minimum_chrome_version": "22",
+  "short_name": "Popup"
+}
