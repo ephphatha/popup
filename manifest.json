@@ -7,12 +7,13 @@
   // Recommended
   "description": "Open the current tab in a popup window",
   "icons": {
-    "128": "icon.png"
+    "128": "icon128.png",
+    "32": "icon32.png"
   },
 
   // Pick one (or none)
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "icon128.png"
   },
 
   // Optional
